@@ -66,6 +66,16 @@ p {
         flex: 0 0 48%;
         max-width: 48%;
     }
+
+    .container {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        font-size: 1em;
+    }
 }
 
 #ajude {
