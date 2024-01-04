@@ -1,0 +1,87 @@
+* {
+    font-family: 'Sniglet', sans-serif;
+}
+
+.back {
+    background-color: rgba(150, 111, 51, 0.7);
+}
+
+.op {
+    padding-bottom: 60px;
+}
+
+.icon-patinha {
+    height: 50px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.carousel-caption h2 {
+    background-color: rgba(150, 111, 51, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #805252;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.d-flex > h2 {
+    padding-bottom: 20px;
+}
+
+.grid .icon-patinha {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    padding-top: 20px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #ffcc00;
+    background-color: #634232;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.674);
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    #resp .col-md-4 {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+
+#ajude {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#ajude h5 {
+    margin-top: 20px;
+}
+
+#ajude h3 {
+    margin-top: 30px;
+}
+
+#ajude p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
