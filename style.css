@@ -95,3 +95,9 @@ p {
     font-style: italic;
     margin-bottom: 20px;
 }
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 15px;
+}
